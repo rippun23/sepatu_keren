@@ -1,0 +1,98 @@
+
+body, h1, h2, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #857a1f;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+aside {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #12a39e;
+    margin: 20px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #12a39e;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #0a7b7b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #3f961d;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background: rgb(37, 148, 182);
+}
+
+td img {
+    background-color: #0d6369;
+    max-width: 100%;
+    height: auto;
+}
+
+
+button {
+    background-color: #207224;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
